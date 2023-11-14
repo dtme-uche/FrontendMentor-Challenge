@@ -11,8 +11,8 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/dtme-uche/FrontendMentor-Challenge/tree/main/qrcode)
-- Live Site URL: [Add live site URL here](https://qr-code-challenge-psi.vercel.app/)
+- Solution URL: [GitHub Solution](https://github.com/dtme-uche/FrontendMentor-Challenge/tree/main/qrcode)
+- Live Site URL: [QR-CODE](https://qr-code-challenge-psi.vercel.app/)
 
 ## My process
 
