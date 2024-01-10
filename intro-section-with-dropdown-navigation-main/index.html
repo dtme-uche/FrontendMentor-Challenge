@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+     <!-- box icon -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="top-g">
+      <header class="header" role="banner">
+        <img src="./images/logo.svg" alt="" />
+      </header>
+
+      <div onclick="openNav()" class="Navbar__Link-toggle">
+        <i class='bx bx-menu bby' ></i>
+      </div>
+
+      <div id="mySidepanel" class="nav-contain sidepanel">
+
+        <div onclick="closeNav()" class="Navbar__Link-toggle  close-nav">
+          <i class='bx bx-x bbz' ></i>
+        </div>
+
+        <nav class="navbar" role="navigation">
+            <div class="dropdown drppad">
+              <a id="clk1" class="dropbtn">Features <img id="myImg1" src="./images/icon-arrow-down.svg" alt=""></a>
+              <div id="myDropdown" class="dropdown-content1">
+                <a href="#"><img src="./images/icon-todo.svg" alt="">Todo List</a>
+                <a href="#"><img src="./images/icon-calendar.svg" alt="">Calender</a>
+                <a href=""><img src="./images/icon-reminders.svg" alt="">Reminders</a>
+                <a href="#"><img src="./images/icon-planning.svg" alt="">Planning</a>
+              </div>
+            </div>   
+            <div class="dropdown2 drppad">
+              <a id="clk" class="dropbtn">Company <img id="myImg" src="./images/icon-arrow-down.svg" alt=""></a>
+              <div id="myDropdown2" class="dropdown-content2">
+                <a href="#">History</a>
+                <a href="#">Our Team</a>
+                <a href="">Blog</a> 
+              </div>
+            </div>  
+            <a class="drppad" href="#home">Careers</a>
+            <a class="drppad" href="#news">About</a>   
+        </nav>
+        <div class="log">
+          <a href="" class="login">Login</a>
+          <a href="" class="register">Register</a>
+        </div>
+      </div>
+    </section>
+    <main role="main">
+      <div class="content">
+        <h1>Make remote work</h1>
+        <p>Get your teamin sync, no matter your location. Streamline processes, create team rituals,
+          and watch productivity soar.</p>
+        <div class="button">
+          <button>Learn more</button>
+        </div>
+        <div class="logos">
+          <img src="./images/client-databiz.svg" alt="">
+          <img src="./images/client-audiophile.svg" alt="">
+          <img src="./images/client-meet.svg" alt="">
+          <img src="./images/client-maker.svg" alt="">
+        </div>
+      </div>
+      <div class="image">
+        <img src="./images/image-hero-desktop.png" alt="">
+      </div>
+
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
